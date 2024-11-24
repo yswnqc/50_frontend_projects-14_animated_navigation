@@ -23,6 +23,46 @@ body {
   margin: 0;
 }
 
+.prev-proj {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+}
+.next-proj {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+}
+.prev-proj:hover,
+.next-proj:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
 nav {
   background-color: #fff;
   padding: 20px;
