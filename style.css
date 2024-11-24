@@ -62,6 +62,10 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+  position: fixed;
+  top: 30%;
+}
 
 nav {
   background-color: #fff;
