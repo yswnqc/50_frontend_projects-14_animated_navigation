@@ -5,7 +5,7 @@ const lis = nav.querySelectorAll("li");
 button.addEventListener("click", () => {
   if (nav.classList.toggle("active")) {
     lis.forEach((li, idx) => {
-      li.style.transition = `0.2s linear ${idx * 0.15}s`;
+      li.style.transition = `0.12s linear ${(idx + 1) * 0.13}s`;
     });
   } else {
     lis.forEach((li, idx) => {
